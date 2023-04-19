@@ -16,5 +16,6 @@ public class Ejemplo1Array{
             suma += i;
         }
         System.out.printf("= %d", suma);
+        leer.close();
     }
 }
