@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class CalseArray1 {
+public class ClaseArray1 {
     
     public static void main(String[] args) {
         Scanner leer = new Scanner(System.in);
@@ -7,8 +7,9 @@ public class CalseArray1 {
         for  (int i = 0; i <  numeros.length; i ++){
             numeros[i] = leer.nextInt();
         }
-        for(int i : numeros){
+        for (int i : numeros) {
             System.out.printf("[%d]", i);
         }
+        leer.close();
     }
 }

@@ -20,6 +20,6 @@ public class Matriz01{
             }
             System.out.println("");
         }
-        
+        leer.close();
     }
 }
