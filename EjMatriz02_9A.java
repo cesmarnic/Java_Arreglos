@@ -34,6 +34,6 @@ public class EjMatriz02_9A {
         for(int i : inversa) {
             System.out.printf("[%d]", i);
         }
-        
+        leer.close();
     }
 }
